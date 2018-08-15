@@ -1,6 +1,11 @@
 package cn.lau1yach.store.dao.daoImp;
 
 import cn.lau1yach.store.dao.UserDao;
+import cn.lau1yach.store.domain.User;
+import cn.lau1yach.store.utils.JDBCUtils;
+import org.apache.commons.dbutils.QueryRunner;
+
+import java.sql.SQLException;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,5 +18,13 @@ import cn.lau1yach.store.dao.UserDao;
 public class UserDaoImp implements UserDao {
     public static void main(String[] arg) {
         System.out.println("hello world!");
+    }
+
+    @Override
+    public void userRegist(User user) throws SQLException {
+        String sql="INSERT INTO USER VALUES(?,?,?,?,?,?,?,?,?,?)";
+        QueryRunner qr = new QueryRunner(JDBCUtils.getDataSource());
+        Object[] params ={user.getUid(),user.getUsername(),user.getPassword(),user.getName(),user.getEmail(),user.getTelephone(),user.getBirthday(),user.getSex(),user.getState(),user.getCode()};
+        qr.update(sql,params);
     }
 }

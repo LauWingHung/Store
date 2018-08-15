@@ -1,6 +1,11 @@
 package cn.lau1yach.store.service.serviceImp;
 
+import cn.lau1yach.store.dao.UserDao;
+import cn.lau1yach.store.dao.daoImp.UserDaoImp;
+import cn.lau1yach.store.domain.User;
 import cn.lau1yach.store.service.UserService;
+
+import java.sql.SQLException;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,5 +18,12 @@ import cn.lau1yach.store.service.UserService;
 public class UserServiceImp implements UserService {
     public static void main(String[] arg) {
         System.out.println("hello world!");
+    }
+
+    @Override
+    public void userRegist(User user) throws SQLException {
+//        实现注册
+        UserDao userDao =new UserDaoImp();
+        userDao.userRegist(user);
     }
 }
