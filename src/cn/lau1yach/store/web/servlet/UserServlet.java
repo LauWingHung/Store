@@ -3,6 +3,7 @@ package cn.lau1yach.store.web.servlet;
 import cn.lau1yach.store.domain.User;
 import cn.lau1yach.store.service.UserService;
 import cn.lau1yach.store.service.serviceImp.UserServiceImp;
+import cn.lau1yach.store.utils.MailUtils;
 import cn.lau1yach.store.utils.MyBeanUtils;
 import cn.lau1yach.store.utils.UUIDUtils;
 import cn.lau1yach.store.web.base.BaseServlet;
@@ -53,6 +54,7 @@ public class UserServlet extends BaseServlet {
         try {
             userService.userRegist(user);
 //        注册成功，向用户邮箱发送信息，跳转到提示页面
+            MailUtils.sendMail(user.getEmail(),user.getCode());
             request.setAttribute("msg","用户注册成功，请激活！");
         } catch (Exception e) {
 //        注册失败，跳转到提示页面
@@ -61,6 +63,25 @@ public class UserServlet extends BaseServlet {
 
         }
         return "/jsp/info.jsp";
+
+    }
+    public String active(HttpServletRequest request, HttpServletResponse response) throws Exception {
+//        获取激活码
+        String code=request.getParameter("code");
+//        调用业务层激活功能
+        UserService userService=new UserServiceImp();
+        boolean flag=userService.userActive(code);
+//        进行激活提示
+        if (flag=true){
+//            用户激活成功，向request放入提示信息，转发到登录页面
+            request.setAttribute("msg","用户激活成功，请登录！");
+            return "/jsp/login.jsp";
+        }else{
+//            用户激活失败，向request放入提示信息，转发到提示页面
+            request.setAttribute("msg","用户激活失败，请重新激活！");
+            return "/jsp/info.jsp";
+        }
+
 
     }
 

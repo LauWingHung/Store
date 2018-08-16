@@ -7,7 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69ccca02-24e4-486c-a8a0-a9bc1ae0bc50" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Store/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/test/TestEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/daoImp/UserDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/daoImp/UserDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/service/serviceImp/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/service/serviceImp/UserServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/MailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/MailUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/UserServlet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +33,8 @@
       <file leaf-file-name="UserServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/UserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-212">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="131">
+              <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,20 +42,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Store/web/jsp/register.jsp">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-234">
-              <caret line="165" column="22" lean-forward="true" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
+            <state relative-caret-position="152">
+              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Store/web/jsp/info.jsp">
+      <file leaf-file-name="UserServiceImp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/service/serviceImp/UserServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-305">
-              <caret line="115" column="6" lean-forward="true" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
+            <state relative-caret-position="454">
+              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/daoImp/UserDaoImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/MailUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,6 +111,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="LauWingHung" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Store" />
   </component>
   <component name="IdeDocumentHistory">
@@ -82,18 +134,25 @@
         <option value="$PROJECT_DIR$/web/jsp/product_info.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/product_list.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/register.jsp" />
-        <option value="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/domain/User.java" />
-        <option value="$PROJECT_DIR$/../Store/web/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/../Store/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/test/TestBeanUtils.java" />
-        <option value="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/base/BaseServlet.java" />
+        <option value="$PROJECT_DIR$/src/cn/lau1yach/store/domain/User.java" />
+        <option value="$PROJECT_DIR$/web/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/cn/lau1yach/store/test/TestBeanUtils.java" />
+        <option value="$PROJECT_DIR$/src/cn/lau1yach/store/web/base/BaseServlet.java" />
+        <option value="$PROJECT_DIR$/src/cn/lau1yach/store/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/cn/lau1yach/store/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/lau1yach/store/dao/daoImp/UserDaoImp.java" />
+        <option value="$PROJECT_DIR$/src/cn/lau1yach/store/service/serviceImp/UserServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/cn/lau1yach/store/web/servlet/UserServlet.java" />
+        <option value="$PROJECT_DIR$/web/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/info.jsp" />
+        <option value="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/test/TestEmail.java" />
+        <option value="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/MailUtils.java" />
+        <option value="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/UserServlet.java" />
         <option value="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/service/UserService.java" />
         <option value="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/daoImp/UserDaoImp.java" />
         <option value="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/service/serviceImp/UserServiceImp.java" />
-        <option value="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/UserServlet.java" />
-        <option value="$PROJECT_DIR$/../Store/web/jsp/register.jsp" />
-        <option value="$PROJECT_DIR$/../Store/web/jsp/info.jsp" />
       </list>
     </option>
   </component>
@@ -124,24 +183,90 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="daoImp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceImp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,15 +279,15 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Store\src\cn\lau1yach\store\test" />
       <recent name="D:\Store\web\jsp" />
       <recent name="D:\Store\web\img" />
       <recent name="D:\Store\src\cn\lau1yach\store\web\filter" />
       <recent name="D:\Store\src" />
-      <recent name="D:\Store\src\cn\lau1yach\store\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -178,6 +303,17 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="TestEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lau1yach.store.test.TestEmail" />
+      <module name="Store" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lau1yach.store.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -337,11 +473,13 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="Application.TestEmail" />
       <item itemvalue="JUnit.TestBeanUtils" />
       <item itemvalue="JUnit.TestBeanUtils.test02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestEmail" />
         <item itemvalue="JUnit.TestBeanUtils.test02" />
         <item itemvalue="JUnit.TestBeanUtils" />
       </list>
@@ -361,7 +499,10 @@
       <workItem from="1534295144869" duration="120000" />
       <workItem from="1534295533535" duration="3085000" />
       <workItem from="1534299350153" duration="2528000" />
-      <workItem from="1534302385209" duration="16366000" />
+      <workItem from="1534302385209" duration="16726000" />
+      <workItem from="1534380950897" duration="2147000" />
+      <workItem from="1534384957225" duration="100000" />
+      <workItem from="1534385102730" duration="4831000" />
     </task>
     <task id="LOCAL-00001" summary="lau1yach">
       <created>1534296201819</created>
@@ -440,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534326610374</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="lau1yach">
+      <created>1534327074477</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1534327074477</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -464,10 +612,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23267000" />
+    <option name="totallyTimeSpent" value="30705000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -481,7 +629,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.36827585" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.022068966" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -491,8 +639,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32965517" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.54206896" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7467249" visible="true" weight="0.13367052" />
-      <window_info id="Web" order="2" sideWeight="0.2532751" side_tool="true" visible="true" weight="0.13367052" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74471086" visible="true" weight="0.1401734" />
+      <window_info id="Web" order="2" sideWeight="0.25528914" side_tool="true" visible="true" weight="0.1401734" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,6 +662,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="lau1yach" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3135">
+          <caret line="165" column="22" lean-forward="true" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2603">
+          <caret line="137" column="49" selection-start-line="137" selection-start-column="49" selection-end-line="137" selection-end-column="49" />
+          <folding>
+            <element signature="e#4066#4072#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Store/web/jsp/cart.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3135">
@@ -649,13 +814,6 @@
     <entry file="file://$PROJECT_DIR$/../Store/web/img/logo2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3135">
-          <caret line="166" column="49" selection-start-line="166" selection-start-column="49" selection-end-line="166" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Store/web/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3230">
@@ -696,16 +854,6 @@
         <state relative-caret-position="-171" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="30" column="98" selection-start-line="30" selection-start-column="91" selection-end-line="30" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Store/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -713,9 +861,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/MyBeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/test/TestBeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/base/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="134" column="17" lean-forward="true" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+          <folding>
+            <element signature="e#4066#4072#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Store/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="98" selection-start-line="30" selection-start-column="91" selection-end-line="30" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="162" column="8" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Store/web/WEB-INF/lib/mail.jar!/javax/mail/Transport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="165" column="22" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1089">
+        <state relative-caret-position="2299">
           <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
           <folding>
             <element signature="e#546#547#0" expanded="true" />
@@ -762,36 +972,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/MyBeanUtils.java">
+    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/test/TestEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/test/TestBeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="165">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#394#411#0" expanded="true" />
-            <element signature="e#828#845#0" expanded="true" />
+            <element signature="e#718#984#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/base/BaseServlet.java">
+    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/service/serviceImp/UserServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="131">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -800,18 +995,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="152">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/daoImp/UserDaoImp.java">
+    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/service/serviceImp/UserServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="454">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -821,34 +1016,27 @@
     <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/register.jsp">
+    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/MailUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="165" column="22" lean-forward="true" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
+        <state relative-caret-position="19">
+          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/UserServlet.java">
+    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/daoImp/UserDaoImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-212">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="402">
+          <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="115" column="6" lean-forward="true" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
         </state>
       </provider>
     </entry>
