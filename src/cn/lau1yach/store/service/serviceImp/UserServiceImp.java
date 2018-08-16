@@ -38,7 +38,8 @@ public class UserServiceImp implements UserService {
 //            修改用户的状态，清楚激活码
             user.setState(1);
             user.setCode(null);
-//            对数据库执行一次真实的更行操作
+//            对数据库执行一次真实的更行操作 update user set state=1,code=null where uid=?
+//            update user set username=?,password=?,name=?,email=?,telephone=?,birthday=?,sex=?,state=?,code=?,where uid=?
             userDao.updateUser(user);
             return true;
         }else {
