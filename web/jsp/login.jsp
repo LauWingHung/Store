@@ -113,7 +113,7 @@ font {
 				<div style="width:440px;border:1px solid #E7E7E7;padding:20px 0 20px 30px;border-radius:5px;margin-top:60px;background:#fff;">
 				<font>会员登录</font>USER LOGIN
 
-				<div>&nbsp;</div>
+				<div>${msg}</div>
 <form class="form-horizontal">
   
  <div class="form-group">
@@ -125,7 +125,7 @@ font {
    <div class="form-group">
     <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
     <div class="col-sm-6">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="请输入密码">
+      <input type="password" class="form-control" id="inputPassword2" placeholder="请输入密码">
     </div>
   </div>
    <div class="form-group">
