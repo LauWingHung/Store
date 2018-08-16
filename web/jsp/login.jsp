@@ -1,5 +1,5 @@
-﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html>
 <head>
@@ -51,10 +51,17 @@ font {
 				</div>
 				<div class="col-md-3" style="padding-top:20px">
 					<ol class="list-inline">
+
+						<c:if test="${empty userLogin}">
 						<li><a href="${pageContext.request.contextPath}/UserServlet?method=loginUI">登录</a></li>
 						<li><a href="${pageContext.request.contextPath}/UserServlet?method=regisUI">注册</a></li>
+						</c:if>
+						<c:if test="${not empty userLogin}">
+						<li>欢迎${userLogin.username}</li>
+						<li><a href="${pageContext.request.contextPath}/UserServlet?method=logOut">退出</a></li>
 						<li><a href="${pageContext.request.contextPath}/jsp/cart.jsp">购物车</a></li>
 						<li><a href="${pageContext.request.contextPath}/jsp/order_list.jsp">我的订单</a></li>
+						</c:if>
 					</ol>
 				</div>
 			</div>
@@ -114,18 +121,18 @@ font {
 				<font>会员登录</font>USER LOGIN
 
 				<div>${msg}</div>
-<form class="form-horizontal">
+<form class="form-horizontal" method="post" action="${pageContext.request.contextPath}/UserServlet?method=userLogin">
   
  <div class="form-group">
-    <label for="username" class="col-sm-2 control-label">用户名</label>
+    <label for="username"  class="col-sm-2 control-label">用户名</label>
     <div class="col-sm-6">
-      <input type="text" class="form-control" id="username" placeholder="请输入用户名">
+      <input type="text" class="form-control" name="username" id="username" placeholder="请输入用户名">
     </div>
   </div>
    <div class="form-group">
     <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
     <div class="col-sm-6">
-      <input type="password" class="form-control" id="inputPassword2" placeholder="请输入密码">
+      <input type="password" class="form-control" name="password" id="inputPassword2" placeholder="请输入密码">
     </div>
   </div>
    <div class="form-group">

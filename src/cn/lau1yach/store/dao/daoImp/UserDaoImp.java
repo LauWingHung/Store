@@ -15,6 +15,7 @@ import java.sql.SQLException;
  * Time: 11:14
  * To change this template use File | Settings | File Templates.
  * Description:
+ * @author lau1yach
  */
 public class UserDaoImp implements UserDao {
     public static void main(String[] arg) {
@@ -43,5 +44,13 @@ public class UserDaoImp implements UserDao {
         QueryRunner qr = new QueryRunner(JDBCUtils.getDataSource());
         Object[] params ={user.getUsername(),user.getPassword(),user.getName(),user.getEmail(),user.getTelephone(),user.getBirthday(),user.getSex(),user.getState(),user.getCode(),user.getUid()};
         qr.update(sql,params);
+    }
+
+    @Override
+    public User userLogin(User user) throws SQLException {
+        String sql="select * from user where username=? and password=?";
+        QueryRunner qr = new QueryRunner(JDBCUtils.getDataSource());
+        return qr.query(sql,new BeanHandler<User>(User.class),user.getUsername(),user.getPassword());
+
     }
 }

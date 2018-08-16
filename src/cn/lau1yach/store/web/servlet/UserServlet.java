@@ -89,5 +89,35 @@ public class UserServlet extends BaseServlet {
         return "/jsp/login.jsp";
     }
 
-
+    public String userLogin(HttpServletRequest request, HttpServletResponse response) throws Exception {
+//        获取用户数据（账户和密码）
+        User user= new User();
+        MyBeanUtils.populate(user,request.getParameterMap());
+//        调用业务层的登录功能
+        UserService userService =new UserServiceImp();
+        User user1 = null;
+        try {
+//            select * from user where username=? and password=?
+            user1=userService.userLogin(user);
+            String log1="userLogin";
+            request.getSession().setAttribute("userLogin",user1);
+            response.sendRedirect("/Store/index.jsp");
+            return null;
+            //登录成功
+        } catch (Exception e) {
+//            登录失败
+            String msg=e.getMessage();
+            System.out.println(msg);
+//            向request放入失败的信息
+            request.setAttribute("msg",msg);
+            return "/jsp/login.jsp";
+        }
+    }
+    public String logOut(HttpServletRequest request, HttpServletResponse response) throws Exception {
+//        清除session
+        request.getSession().invalidate();
+//        重新定向到首页
+        response.sendRedirect("/Store/index.jsp");
+        return null;
+    }
 }
