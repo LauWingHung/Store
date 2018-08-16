@@ -72,7 +72,7 @@ public class UserServlet extends BaseServlet {
         UserService userService=new UserServiceImp();
         boolean flag=userService.userActive(code);
 //        进行激活提示
-        if (flag=true){
+        if (flag==true){
 //            用户激活成功，向request放入提示信息，转发到登录页面
             request.setAttribute("msg","用户激活成功，请登录！");
             return "/jsp/login.jsp";
