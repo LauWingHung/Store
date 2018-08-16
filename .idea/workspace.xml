@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69ccca02-24e4-486c-a8a0-a9bc1ae0bc50" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Store/web/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/web/jsp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/daoImp/UserDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/daoImp/UserDaoImp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,86 +22,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/UserServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/service/serviceImp/UserServiceImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="41" column="122" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="122" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDaoImp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/daoImp/UserDaoImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="43" column="192" selection-start-line="43" selection-start-column="192" selection-end-line="43" selection-end-column="192" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Store/web/jsp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="130" column="27" lean-forward="true" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MailUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/MailUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -515,7 +437,7 @@
       <workItem from="1534302385209" duration="16726000" />
       <workItem from="1534380950897" duration="2147000" />
       <workItem from="1534384957225" duration="100000" />
-      <workItem from="1534385102730" duration="5891000" />
+      <workItem from="1534385102730" duration="8043000" />
     </task>
     <task id="LOCAL-00001" summary="lau1yach">
       <created>1534296201819</created>
@@ -615,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534391847038</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="lau1yach">
+      <created>1534392045496</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1534392045496</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -639,14 +568,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31765000" />
+    <option name="totallyTimeSpent" value="33917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5007225" side_tool="true" visible="true" weight="0.022068966" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50216764" side_tool="true" weight="0.5117241" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.329235" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -656,7 +584,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49927744" visible="true" weight="0.022068966" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49783236" visible="true" weight="0.40827587" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -664,10 +592,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32965517" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.54206896" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27724138" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74330044" visible="true" weight="0.1401734" />
-      <window_info id="Web" order="6" sideWeight="0.25669956" side_tool="true" visible="true" weight="0.1401734" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74125874" visible="true" weight="0.18641618" />
+      <window_info id="Web" order="6" sideWeight="0.25874126" side_tool="true" visible="true" weight="0.18641618" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -688,31 +616,19 @@
     <MESSAGE value="lau1yach" />
     <option name="LAST_COMMIT_MESSAGE" value="lau1yach" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Store/web/jsp/login.jsp</url>
+          <line>135</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3135">
-          <caret line="165" column="22" lean-forward="true" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2603">
-          <caret line="137" column="49" selection-start-line="137" selection-start-column="49" selection-end-line="137" selection-end-column="49" />
-          <folding>
-            <element signature="e#4066#4072#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3135">
-          <caret line="166" column="49" selection-start-line="166" selection-start-column="49" selection-end-line="166" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Store/web/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6023">
@@ -1023,16 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/MailUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1052,8 +958,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/dao/daoImp/UserDaoImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="43" column="192" selection-start-line="43" selection-start-column="192" selection-end-line="43" selection-end-column="192" />
+        <state relative-caret-position="155">
+          <caret line="41" column="117" selection-start-line="41" selection-start-column="117" selection-end-line="41" selection-end-column="117" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/apache-tomcat-7.0.73/lib/jasper.jar!/org/apache/jasper/servlet/JspServletWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="229" column="163" selection-start-line="229" selection-start-column="163" selection-end-line="229" selection-end-column="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/apache-tomcat-7.0.73/lib/jasper.jar!/org/apache/jasper/runtime/HttpJspBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/apache-tomcat-7.0.73/lib/jasper.jar!/org/apache/jasper/servlet/JspServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="233" column="163" selection-start-line="233" selection-start-column="163" selection-end-line="233" selection-end-column="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1062,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Store/web/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="130" column="27" lean-forward="true" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
+        <state relative-caret-position="267">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
     </entry>

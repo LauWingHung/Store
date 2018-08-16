@@ -39,7 +39,7 @@ public class UserDaoImp implements UserDao {
 
     @Override
     public void updateUser(User user) throws SQLException {
-        String sql="update user set username=?,password=?,name=?,email=?,telephone=?,birthday=?,sex=?,state=?,code=?,where uid=?";
+        String sql="update user set username=?,password=?,name=?,email=?,telephone=?,birthday=?,sex=?,state=?,code=? where uid=?";
         QueryRunner qr = new QueryRunner(JDBCUtils.getDataSource());
         Object[] params ={user.getUsername(),user.getPassword(),user.getName(),user.getEmail(),user.getTelephone(),user.getBirthday(),user.getSex(),user.getState(),user.getCode(),user.getUid()};
         qr.update(sql,params);
