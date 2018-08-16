@@ -85,7 +85,7 @@ public class UserServlet extends BaseServlet {
 
 
     }
-    public String login(HttpServletRequest request, HttpServletResponse response) throws Exception {
+    public String loginUI(HttpServletRequest request, HttpServletResponse response) throws Exception {
         return "/jsp/login.jsp";
     }
 
