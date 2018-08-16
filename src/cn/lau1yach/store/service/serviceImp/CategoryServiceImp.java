@@ -1,6 +1,11 @@
 package cn.lau1yach.store.service.serviceImp;
 
+import cn.lau1yach.store.dao.CategoryDao;
+import cn.lau1yach.store.dao.daoImp.CategoryDaoImp;
+import cn.lau1yach.store.domain.Category;
 import cn.lau1yach.store.service.CategoryService;
+
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,4 +16,9 @@ import cn.lau1yach.store.service.CategoryService;
  * Description:
  */
 public class CategoryServiceImp implements CategoryService {
+    @Override
+    public List<Category> getAllCats() throws Exception {
+        CategoryDao categoryDao= new CategoryDaoImp();
+        return categoryDao.getAllCats();
+    }
 }
