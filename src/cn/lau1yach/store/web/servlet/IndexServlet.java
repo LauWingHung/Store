@@ -18,7 +18,7 @@ public class IndexServlet extends BaseServlet {
         CategoryService categoryService=new CategoryServiceImp();
         List<Category>list=categoryService.getAllCats();
 //        将返回的集合放入request
-        req.setAttribute("all Cats",list);
+        req.setAttribute("allCats",list);
 //        转发到真实首页
         return "/jsp/index.jsp";
     }
