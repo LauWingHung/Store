@@ -75,16 +75,16 @@
 				</div>
 				<div class="col-md-10">
 					<div class="col-md-6" style="text-align:center;height:200px;padding:0px;">
-						<a href="product_info.htm">
+						<a href="${pageContext.request.contextPath}/ProductServlet?method=findProductByPid&pid=${p.pid}">
 							<img src="products/hao/middle01.jpg" width="516px" height="200px" style="display: inline-block;">
 						</a>
 					</div>
 					<c:forEach items="${hots}" var="p">
 						<div class="col-md-2" style="text-align:center;height:200px;padding:10px 0px;">
-							<a href="product_info.htm">
+							<a href="${pageContext.request.contextPath}/ProductServlet?method=findProductByPid&pid=${p.pid}">
 								<img src="${pageContext.request.contextPath}/${p.pimage}" width="130" height="130" style="display: inline-block;">
 							</a>
-							<p><a href="product_info.html" style='color:#666'>${p.pname}</a></p>
+							<p><a href="${pageContext.request.contextPath}/ProductServlet?method=findProductByPid&pid=${p.pid}" style='color:#666'>${p.pname}</a></p>
 							<p><font color="#E4393C" style="font-size:16px">${p.shop_price}</font></p>
 						</div>
 					</c:forEach>
@@ -117,10 +117,10 @@
 
 					<c:forEach items="${news}" var="p">
 						<div class="col-md-2" style="text-align:center;height:200px;padding:10px 0px;">
-							<a href="product_info.htm">
+							<a href="${pageContext.request.contextPath}/ProductServlet?method=findProductByPid&pid=${p.pid}">
 								<img src="${pageContext.request.contextPath}/${p.pimage}" width="130" height="130" style="display: inline-block;">
 							</a>
-							<p><a href="product_info.html" style='color:#666'>${p.pname}</a></p>
+							<p><a href="${pageContext.request.contextPath}/ProductServlet?method=findProductByPid&pid=${p.pid}" style='color:#666'>${p.pname}</a></p>
 							<p><font color="#E4393C" style="font-size:16px">${p.shop_price}</font></p>
 						</div>
 					</c:forEach>

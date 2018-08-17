@@ -4,6 +4,7 @@ import cn.lau1yach.store.dao.ProductDao;
 import cn.lau1yach.store.domain.Product;
 import cn.lau1yach.store.utils.JDBCUtils;
 import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 
 import java.util.List;
@@ -32,5 +33,12 @@ public class ProductDaoImp implements ProductDao {
         QueryRunner qr=new QueryRunner(JDBCUtils.getDataSource());
         return qr.query(sql,new BeanListHandler<Product>(Product.class));
 
+    }
+
+    @Override
+    public Product findProductByPid(String pid) throws Exception {
+        String sql="select * from product where pid=?";
+        QueryRunner qr=new QueryRunner(JDBCUtils.getDataSource());
+        return qr.query(sql,new BeanHandler<Product>(Product.class),pid);
     }
 }

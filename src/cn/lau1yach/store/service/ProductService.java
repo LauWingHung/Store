@@ -7,4 +7,5 @@ import java.util.List;
 public interface ProductService {
     List<Product> findHots() throws Exception;
     List<Product> findNews() throws Exception;
+    Product findProductByPid(String pid)throws Exception;
 }

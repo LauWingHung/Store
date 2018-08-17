@@ -7,4 +7,5 @@ import java.util.List;
 public interface ProductDao {
     List<Product> findHots() throws Exception;
     List<Product> findHNews() throws Exception;
+    Product findProductByPid(String pid) throws Exception;
 }
