@@ -7,26 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69ccca02-24e4-486c-a8a0-a9bc1ae0bc50" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Store/web/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Store/web/WEB-INF/lib/commons-lang-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Store/web/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Store/web/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Store/web/jsp/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Store/web/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Store/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Store/.idea/libraries/commons_pool2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/JedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Store/web/WEB-INF/lib/commons-pool2-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Store/web/WEB-INF/lib/jedis-2.7.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Store/Store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/Store.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/CategoryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/CategoryServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Store/web/WEB-INF/classes/cn/lau1yach/store/web/base/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/web/WEB-INF/classes/cn/lau1yach/store/web/base/BaseServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Store/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Store/web/jsp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/web/jsp/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Store/web/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/web/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Store/web/jsp/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/web/jsp/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Store/web/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/web/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Store/web/jsp/order_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/web/jsp/order_info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Store/web/jsp/order_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/web/jsp/order_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Store/web/jsp/product_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/web/jsp/product_info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Store/web/jsp/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/web/jsp/product_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Store/web/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Store/web/jsp/register.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Store/web/jsp/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="570">
               <caret line="61" column="62" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
             </state>
           </provider>
@@ -53,11 +41,34 @@
       <file leaf-file-name="CategoryServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/CategoryServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="87">
+              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/JedisUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyBeanUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/MyBeanUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -66,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/../Store/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
-              <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+              <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -94,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/lau1yach/store/dao/daoImp/UserDaoImp.java" />
         <option value="$PROJECT_DIR$/src/cn/lau1yach/store/service/serviceImp/UserServiceImp.java" />
         <option value="$PROJECT_DIR$/src/cn/lau1yach/store/web/servlet/UserServlet.java" />
         <option value="$PROJECT_DIR$/web/jsp/register.jsp" />
@@ -142,9 +152,10 @@
         <option value="$PROJECT_DIR$/../Store/web/jsp/product_info.jsp" />
         <option value="$PROJECT_DIR$/../Store/web/jsp/product_list.jsp" />
         <option value="$PROJECT_DIR$/../Store/web/jsp/register.jsp" />
-        <option value="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/CategoryServlet.java" />
         <option value="$PROJECT_DIR$/../Store/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../Store/web/jsp/header.jsp" />
+        <option value="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/CategoryServlet.java" />
+        <option value="$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/JedisUtils.java" />
       </list>
     </option>
   </component>
@@ -164,9 +175,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="650" />
-    <option name="y" value="110" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="678" />
+    <option name="y" value="71" />
     <option name="width" value="767" />
     <option name="height" value="478" />
   </component>
@@ -199,45 +210,7 @@
               <item name="Store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="daoImp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceImp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Store" type="b2602c69:ProjectViewProjectNode" />
@@ -249,6 +222,13 @@
               <item name="Store" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,11 +255,11 @@
       <recent name="cn.lau1yach.store.web.servlet" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Store\src\cn\lau1yach\store\utils" />
       <recent name="D:\Store\web\WEB-INF\lib" />
       <recent name="D:\Store\web\jsp" />
       <recent name="D:\Store\src\cn\lau1yach\store\test" />
       <recent name="D:\Store\web\img" />
-      <recent name="D:\Store\src\cn\lau1yach\store\web\filter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -497,7 +477,7 @@
       <workItem from="1534384957225" duration="100000" />
       <workItem from="1534385102730" duration="8223000" />
       <workItem from="1534399720655" duration="12665000" />
-      <workItem from="1534466090603" duration="8773000" />
+      <workItem from="1534466090603" duration="10488000" />
     </task>
     <task id="LOCAL-00001" summary="lau1yach">
       <created>1534296201819</created>
@@ -639,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534412439343</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="lau1yach">
+      <created>1534476011573</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1534476011573</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -663,10 +650,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55535000" />
+    <option name="totallyTimeSpent" value="57250000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="650" y="110" width="767" height="478" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -680,9 +667,9 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8995665" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8995665" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32965517" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.37103447" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32965517" />
@@ -690,8 +677,8 @@
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32965517" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27724138" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3337931" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.737003" visible="true" weight="0.29928058" />
-      <window_info id="Web" order="6" sideWeight="0.26299694" side_tool="true" visible="true" weight="0.29928058" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7386831" visible="true" weight="0.15101156" />
+      <window_info id="Web" order="6" sideWeight="0.26131687" side_tool="true" visible="true" weight="0.15101156" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -721,20 +708,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/test/TestBeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Store/web/WEB-INF/lib/mail.jar!/javax/mail/Transport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2299">
@@ -1013,6 +986,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1249,27 +1225,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Store/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="61" column="62" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/web/servlet/CategoryServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="87">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/MyBeanUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        <state relative-caret-position="76">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Store/web/jsp/header.jsp">
+    <entry file="file://$PROJECT_DIR$/../Store/src/cn/lau1yach/store/utils/JedisUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="61" column="62" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
+        <state relative-caret-position="323">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
