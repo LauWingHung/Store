@@ -19,7 +19,7 @@
     </filter-mapping>
 
     <servlet>
-        <description></description>
+
         <display-name>UserServlet</display-name>
         <servlet-name>UserServlet</servlet-name>
         <servlet-class>cn.lau1yach.store.web.servlet.UserServlet</servlet-class>
@@ -30,7 +30,7 @@
     </servlet-mapping>
 
     <servlet>
-        <description></description>
+
         <display-name>IndexServlet</display-name>
         <servlet-name>IndexServlet</servlet-name>
         <servlet-class>cn.lau1yach.store.web.servlet.IndexServlet</servlet-class>
@@ -41,7 +41,7 @@
     </servlet-mapping>
 
     <servlet>
-        <description></description>
+
         <display-name>CategoryServlet</display-name>
         <servlet-name>CategoryServlet</servlet-name>
         <servlet-class>cn.lau1yach.store.web.servlet.CategoryServlet</servlet-class>
@@ -52,7 +52,7 @@
     </servlet-mapping>
 
     <servlet>
-        <description></description>
+
         <display-name>ProductServlet</display-name>
         <servlet-name>ProductServlet</servlet-name>
         <servlet-class>cn.lau1yach.store.web.servlet.ProductServlet</servlet-class>
