@@ -1,13 +1,18 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Store:war exploded">
-    <output-path>$PROJECT_DIR$/../Store/out/artifacts/Store_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts/Store_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="Store/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Store" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="JUnit4" module-name="Store" />
+          <element id="library" level="project" name="c3p0-0.9.2-pre5" />
+          <element id="library" level="project" name="annotations-api" />
+        </element>
       </element>
+      <element id="javaee-facet-resources" facet="Store/web/Web" />
     </root>
   </artifact>
 </component>
