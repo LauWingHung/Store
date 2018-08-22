@@ -1,24 +1,24 @@
 <component name="libraryTable">
   <library name="annotations-api">
     <CLASSES>
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/annotations-api.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/catalina-ant.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/catalina-ha.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/catalina-tribes.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/catalina.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/ecj-4.4.2.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/el-api.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/jasper-el.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/jasper.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/jsp-api.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/servlet-api.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/tomcat-api.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/tomcat-coyote.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/tomcat-dbcp.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/tomcat-jdbc.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/tomcat-util.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/tomcat7-websocket.jar!/" />
-      <root url="jar://C:/Program Files/apache-tomcat-7.0.73/lib/websocket-api.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/annotations-api.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/catalina-ant.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/catalina-ha.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/catalina-tribes.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/ecj-4.4.2.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/el-api.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/jasper-el.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/jasper.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/jsp-api.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/servlet-api.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/tomcat-api.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/tomcat-coyote.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/tomcat-dbcp.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/tomcat-jdbc.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/tomcat-util.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/tomcat7-websocket.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/websocket-api.jar!/" />
+      <root url="jar://C:/apache-tomcat-7.0.73/apache-tomcat-7.0.73/lib/catalina.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
