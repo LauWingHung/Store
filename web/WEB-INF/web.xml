@@ -67,4 +67,14 @@
         <servlet-name>CartServlet</servlet-name>
         <url-pattern>/CartServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <display-name>OrderServlet</display-name>
+        <servlet-name>OrderServlet</servlet-name>
+        <servlet-class>cn.lau1yach.store.web.servlet.OrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/OrderServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

@@ -1,6 +1,8 @@
 package cn.lau1yach.store.web.servlet;
 
 import cn.lau1yach.store.domain.*;
+import cn.lau1yach.store.service.OrderService;
+import cn.lau1yach.store.service.serviceImp.OrderServiceImp;
 import cn.lau1yach.store.utils.UUIDUtils;
 import cn.lau1yach.store.web.base.BaseServlet;
 
@@ -18,7 +20,7 @@ public class OrderServlet extends BaseServlet {
 
     public String saveOrder(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 //        确认用户登录状态
-        User user= (User) req.getSession().getAttribute("loginUser");
+        User user= (User) req.getSession().getAttribute("userLogin");
         if (null==user){
             req.setAttribute("msg","请登录后再下单");
             return "/jsp/info.jsp";
@@ -40,10 +42,16 @@ public class OrderServlet extends BaseServlet {
             orderItem.setTotal(item.getSubTotal());
             orderItem.setProduct(item.getProduct());
             orderItem.setOrder(order);
+            order.getList().add(orderItem);
         }
 //        调用业务层功能，保存订单
+        OrderService orderService=new OrderServiceImp();
+//        将订单数据，用户的数据，订单下所有的订单项都传递到service层
+        orderService.saveOrder(order);
 //        清空购物车
+        cart.clearCart();
 //        将订单放入request
+        req.setAttribute("order",order);
 //        转发/jsp/order_info.jsp
         return "/jsp/order_info.jsp";
     }
