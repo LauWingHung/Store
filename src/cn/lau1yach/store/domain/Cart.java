@@ -33,6 +33,11 @@ public class Cart {
             map.put(pid,cartItem);
         }
     }
+//    返回map中所有的值
+
+    public  Collection getCartItems(){
+        return map.values();
+    }
 //    移除购物项
     public void removeCartItem(String pid){
         map.remove(pid);

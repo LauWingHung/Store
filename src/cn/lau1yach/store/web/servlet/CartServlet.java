@@ -7,6 +7,7 @@ import cn.lau1yach.store.service.ProductService;
 import cn.lau1yach.store.service.serviceImp.ProductServiceImp;
 import cn.lau1yach.store.web.base.BaseServlet;
 
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -36,6 +37,27 @@ public class CartServlet extends BaseServlet {
 //        调用购物车上的方法
         cart.addCartItemToCart(cartItem);
 //        重定向到/jsp/cart.jsp
+        resp.sendRedirect("/Store/jsp/cart.jsp");
+        return null;
+    }
+    public String removeCartItem(HttpServletRequest req, HttpServletResponse resp) throws Exception {
+//        获取待删除商品pid
+        String pid =req.getParameter("id");
+//        获取到购物车
+        Cart cart = (Cart) req.getSession().getAttribute("cart");
+//        调用购物车删除购物项方法
+        cart.removeCartItem(pid);
+//        重定向到/jsp/cart.jsp
+        resp.sendRedirect("/Store/jsp/cart.jsp");
+        return null;
+
+    }
+    public String clearCart(HttpServletRequest req, HttpServletResponse resp) throws Exception {
+//        获取购物车
+        Cart cart= (Cart) req.getSession().getAttribute("cart");
+//        调用购物车上清空购物车的方法
+        cart.clearCart();
+        //        重定向到/jsp/cart.jsp
         resp.sendRedirect("/Store/jsp/cart.jsp");
         return null;
     }

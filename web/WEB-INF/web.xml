@@ -19,7 +19,6 @@
     </filter-mapping>
 
     <servlet>
-
         <display-name>UserServlet</display-name>
         <servlet-name>UserServlet</servlet-name>
         <servlet-class>cn.lau1yach.store.web.servlet.UserServlet</servlet-class>
@@ -30,7 +29,6 @@
     </servlet-mapping>
 
     <servlet>
-
         <display-name>IndexServlet</display-name>
         <servlet-name>IndexServlet</servlet-name>
         <servlet-class>cn.lau1yach.store.web.servlet.IndexServlet</servlet-class>
@@ -41,7 +39,6 @@
     </servlet-mapping>
 
     <servlet>
-
         <display-name>CategoryServlet</display-name>
         <servlet-name>CategoryServlet</servlet-name>
         <servlet-class>cn.lau1yach.store.web.servlet.CategoryServlet</servlet-class>
@@ -52,7 +49,6 @@
     </servlet-mapping>
 
     <servlet>
-
         <display-name>ProductServlet</display-name>
         <servlet-name>ProductServlet</servlet-name>
         <servlet-class>cn.lau1yach.store.web.servlet.ProductServlet</servlet-class>
@@ -60,5 +56,15 @@
     <servlet-mapping>
         <servlet-name>ProductServlet</servlet-name>
         <url-pattern>/ProductServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>CartServlet</display-name>
+        <servlet-name>CartServlet</servlet-name>
+        <servlet-class>cn.lau1yach.store.web.servlet.CartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartServlet</servlet-name>
+        <url-pattern>/CartServlet</url-pattern>
     </servlet-mapping>
 </web-app>
