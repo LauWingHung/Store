@@ -7,6 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="926fc97b-5d46-4a41-bf1d-9755312eaf6c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cn/lau1yach/store/domain/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/lau1yach/store/domain/Cart1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/lau1yach/store/domain/CartItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,15 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2820">
-              <caret line="94" column="93" selection-start-line="94" selection-start-column="68" selection-end-line="94" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProductServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/web/servlet/ProductServlet.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductServiceImp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductServiceImp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/service/serviceImp/ProductServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
@@ -67,16 +61,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/domain/PageModel.java">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/domain/CartItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+            <state relative-caret-position="486">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
-                <element signature="e#2920#2921#0" expanded="true" />
-                <element signature="e#2938#2939#0" expanded="true" />
-                <element signature="e#2973#2974#0" expanded="true" />
-                <element signature="e#2996#2997#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cart.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/domain/Cart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cart1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/domain/Cart1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1282#1283#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,16 +150,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/dao/ProductDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="93" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,6 +175,10 @@
         <option value="$PROJECT_DIR$/web/jsp/product_list.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/pageFile.jsp" />
         <option value="$PROJECT_DIR$/src/cn/lau1yach/store/service/serviceImp/ProductServiceImp.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/cn/lau1yach/store/domain/CartItem.java" />
+        <option value="$PROJECT_DIR$/src/cn/lau1yach/store/domain/Cart1.java" />
+        <option value="$PROJECT_DIR$/src/cn/lau1yach/store/domain/Cart.java" />
       </list>
     </option>
   </component>
@@ -147,19 +199,18 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="599" />
-    <option name="y" value="9" />
-    <option name="width" value="1298" />
-    <option name="height" value="883" />
+    <option name="x" value="785" />
+    <option name="y" value="194" />
+    <option name="width" value="1134" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,52 +234,7 @@
               <item name="Store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="daoImp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceImp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Store" type="b2602c69:ProjectViewProjectNode" />
@@ -245,6 +251,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,6 +266,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.lau1yach.store.domain" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JakartaEE\Store\web\jsp" />
       <recent name="D:\JakartaEE\Store\src\cn\lau1yach\store\domain" />
@@ -407,6 +417,7 @@
       <workItem from="1534771979857" duration="4627000" />
       <workItem from="1534776616041" duration="292000" />
       <workItem from="1534852776326" duration="102000" />
+      <workItem from="1534899756159" duration="4839000" />
     </task>
     <task id="LOCAL-00001" summary="lau1yach">
       <created>1534776366424</created>
@@ -422,14 +433,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534776635737</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lau1yach">
+      <created>1534899880909</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534899880910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9253000" />
+    <option name="totallyTimeSpent" value="14092000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="599" y="9" width="1298" height="883" extended-state="0" />
+    <frame x="785" y="194" width="1134" height="789" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -438,23 +456,23 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50078005" side_tool="true" visible="true" weight="0.3984375" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50078005" side_tool="true" visible="true" weight="0.45400593" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32943678" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32943678" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37441498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2549195" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49921995" weight="0.3984375" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3294271" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -475,30 +493,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="lau1yach" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/jsp/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2820">
-          <caret line="94" column="93" selection-start-line="94" selection-start-column="68" selection-end-line="94" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/web/servlet/ProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/dao/daoImp/ProductDaoImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
@@ -829,6 +823,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/domain/CartItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/domain/Cart1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/domain/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
