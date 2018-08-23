@@ -1,9 +1,9 @@
 package cn.lau1yach.store.domain;
 
 public class OrderItem {
-    private String itemid;
-    private int quantity;
-    private double total;
+    private String itemid; //商品ID
+    private int quantity;//商品数量
+    private double total;//商品小计
     private Product product;
     private Order order;
 

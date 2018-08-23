@@ -5,13 +5,13 @@ import java.util.Date;
 import java.util.List;
 
 public class Order {
-    private String oid;
-    private Date ordertime;
-    private double total;
-    private int state;
-    private String address;
-    private String name;
-    private String telephone;
+    private String oid; //订单编号
+    private Date ordertime;//订单时间
+    private double total;//总计
+    private int state;//状态
+    private String address;//收货人地址
+    private String name;//收货人名字
+    private String telephone;//收货人电话号码
     //对象和对象发生关系，而不是对象和对象的属性发生关系
     //设计Order目的：让order携带订单的数据向service，dao传送，user对象是可以携带更多的数据
 

@@ -41,6 +41,7 @@ public class OrderServlet extends BaseServlet {
             orderItem.setQuantity(item.getNum());
             orderItem.setTotal(item.getSubTotal());
             orderItem.setProduct(item.getProduct());
+//            设置当前的订单项属于哪个订单：程序的角度体验订单项和订单对应关系
             orderItem.setOrder(order);
             order.getList().add(orderItem);
         }
