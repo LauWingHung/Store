@@ -45,11 +45,6 @@ public class OrderServiceImp implements OrderService {
         }catch (Exception e){
 //            回滚
             conn.rollback();
-        }finally {
-            if (null!=conn){
-                conn.close();
-                conn=null;
-            }
         }
     }
 }
