@@ -34,8 +34,8 @@
                         <c:if test="${not empty userLogin}">
                             <li>欢迎${userLogin.username}</li>
                             <li><a href="${pageContext.request.contextPath}/UserServlet?method=logOut">退出</a></li>
-                            <li><a href="${pageContext.request.contextPath}/jsp/cart.jsp">购物车</a></li>
-                            <li><a href="${pageContext.request.contextPath}/jsp/order_list.jsp">我的订单</a></li>
+                            <li><a href="${pageContext.request.contextPath}/CartServlet?method=CartUI">购物车</a></li>
+                            <li><a href="${pageContext.request.contextPath}/OrderServlet?method=findMyOrdersWithPage&num=1">我的订单</a></li>
                         </c:if>
 					</ol>
 				</div>

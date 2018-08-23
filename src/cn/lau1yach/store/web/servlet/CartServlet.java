@@ -12,6 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class CartServlet extends BaseServlet {
+    public String CartUI(HttpServletRequest request, HttpServletResponse response) throws Exception {
+        return "/jsp/cart.jsp";
+    }
 //    添加购物项到购物车
     public String addCartItemToCart(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 //        从session获取购物车
