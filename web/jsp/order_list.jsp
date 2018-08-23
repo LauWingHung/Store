@@ -64,7 +64,7 @@
 									<th>数量</th>
 									<th>小计</th>
 								</tr>
-								<c:forEach items="${o.list}"var="item">
+								<c:forEach items="${o.list}" var="item">
 										<tr class="active">
 											<td width="60" width="40%">
 												<input type="hidden" name="id" value="22">
