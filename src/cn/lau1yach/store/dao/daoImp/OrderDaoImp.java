@@ -73,6 +73,50 @@ public class OrderDaoImp implements OrderDao {
         return list;
     }
 
+//    @Override
+//    public Order findOrderByOid(String oid) throws Exception {
+//        String sql="select * from orders where oid= ?";
+//        QueryRunner qr=new QueryRunner(JDBCUtils.getDataSource());
+//        Order order=qr.query(sql, new BeanHandler<Order>(Order.class),oid);
+//
+//        //根据订单id查询订单下所有的订单项以及订单项对应的商品信息
+//        sql="select * from orderitem o, product p where o.pid=p.pid and oid=?";
+//        List<Map<String, Object>> list1 = qr.query(sql, new MapListHandler(),oid);
+//        //遍历list
+//        for (Map<String, Object> map : list1) {
+//            OrderItem orderItem=new OrderItem();
+//            Product product=new Product();
+//            // 由于BeanUtils将字符串"1992-3-3"向user对象的setBithday();方法传递参数有问题,手动向BeanUtils注册一个时间类型转换器
+//            // 1_创建时间类型的转换器
+//            DateConverter dt = new DateConverter();
+//            // 2_设置转换的格式
+//            dt.setPattern("yyyy-MM-dd");
+//            // 3_注册转换器
+//            ConvertUtils.register(dt, java.util.Date.class);
+//
+//            //将map中属于orderItem的数据自动填充到orderItem对象上
+//            BeanUtils.populate(orderItem, map);
+//            //将map中属于product的数据自动填充到product对象上
+//            BeanUtils.populate(product, map);
+//
+//            //让每个订单项和商品发生关联关系
+//            orderItem.setProduct(product);
+//            //将每个订单项存入订单下的集合中
+//            order.getList().add(orderItem);
+//        }
+//        return order;
+//    }
+
+
+    @Override
+    public int getTotalRecords(User user) throws Exception {
+        String sql="select count(*) from orders where uid=?";
+        QueryRunner qr=new QueryRunner(JDBCUtils.getDataSource());
+        Long num=(Long)qr.query(sql, new ScalarHandler(),user.getUid());
+        return num.intValue();
+    }
+
+
     @Override
     public Order findOrderByOid(String oid) throws Exception {
         String sql="select * from orders where oid= ?";
@@ -105,15 +149,6 @@ public class OrderDaoImp implements OrderDao {
             order.getList().add(orderItem);
         }
         return order;
-    }
-
-
-    @Override
-    public int getTotalRecords(User user) throws Exception {
-        String sql="select count(*) from orders where uid=?";
-        QueryRunner qr=new QueryRunner(JDBCUtils.getDataSource());
-        Long num=(Long)qr.query(sql, new ScalarHandler(),user.getUid());
-        return num.intValue();
     }
 
     @Override

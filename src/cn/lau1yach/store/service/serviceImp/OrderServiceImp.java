@@ -67,6 +67,11 @@ public class OrderServiceImp implements OrderService {
         return pm;
     }
 
+    @Override
+    public Order findOrderByOid(String oid) throws Exception {
+        OrderDao orderDao=new OrderDaoImp();
+        return orderDao.findOrderByOid(oid);
+    }
 
 
 }

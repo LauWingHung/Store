@@ -8,6 +8,11 @@ import java.sql.Connection;
 import java.util.List;
 
 public interface OrderDao {
+
+
+    Order findOrderByOid(String oid) throws Exception;
+
+
     void saveOrder(Connection conn, Order order)throws Exception;
 
     void saveOrderItem(Connection conn, OrderItem item) throws Exception;
@@ -16,7 +21,7 @@ public interface OrderDao {
 
     List findMyOrdersWithPage(User user, int startIndex, int pageSize) throws Exception;
 
-    Order findOrderByOid(String oid) throws Exception;
+
 
     void updateOrder(Order order) throws Exception;
 }
