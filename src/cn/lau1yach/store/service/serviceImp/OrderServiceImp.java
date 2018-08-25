@@ -69,8 +69,12 @@ public class OrderServiceImp implements OrderService {
 
     @Override
     public Order findOrderByOid(String oid) throws Exception {
-        OrderDao orderDao=new OrderDaoImp();
         return orderDao.findOrderByOid(oid);
+    }
+
+    @Override
+    public void updateOrder(Order order) throws Exception {
+        orderDao.updateOrder(order);
     }
 
 

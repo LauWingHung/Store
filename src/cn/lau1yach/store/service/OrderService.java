@@ -10,4 +10,6 @@ public interface OrderService {
     PageModel findMyOrdersWithPage(User user, int curNum)throws Exception;
 
     Order findOrderByOid(String oid)throws Exception;
+
+    void updateOrder(Order order)throws Exception;
 }
