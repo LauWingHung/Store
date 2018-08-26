@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface CategoryDao {
     List<Category> getAllCats() throws  Exception;
+
+    void addCategory(Category category) throws  Exception;
 }
