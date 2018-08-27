@@ -10,7 +10,7 @@ import cn.lau1yach.store.web.base.BaseServlet;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+@WebServlet(name = "CartServlet",urlPatterns="/CartServlet")
 public class CartServlet extends BaseServlet {
     public String CartUI(HttpServletRequest request, HttpServletResponse response) throws Exception {
         return "/jsp/cart.jsp";

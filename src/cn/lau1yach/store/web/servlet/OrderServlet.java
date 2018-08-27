@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Date;
 
-@WebServlet(name = "OrderServlet" )
+@WebServlet(name = "OrderServlet" ,urlPatterns="/OrderServlet")
 public class OrderServlet extends BaseServlet {
 //    将购物车中的信息以订单的形式保存
 

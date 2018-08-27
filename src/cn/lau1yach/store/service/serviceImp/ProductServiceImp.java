@@ -48,4 +48,17 @@ public class ProductServiceImp implements ProductService {
         pm.setUrl("ProductServlet?method=findProductsByCidWithPage&cid="+cid);
         return pm;
     }
+
+    @Override
+    public PageModel findAllProductsWithPage(int curNum) throws Exception {
+//        创建对象
+        int totalRecords=productDao.findTotalRecords();
+        PageModel pm= new PageModel(curNum,totalRecords,5);
+//        关联集合 select * from product limit ? , ?
+        List<Product> list=productDao.findAllProductsWithPage(pm.getStartIndex(),pm.getPageSize());
+        pm.setList(list);
+//        关联url
+        pm.setUrl("AdminProductServlet?method=findAllProductsWithPage");
+        return pm;
+    }
 }

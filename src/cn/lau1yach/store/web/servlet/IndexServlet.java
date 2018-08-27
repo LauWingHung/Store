@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
-@WebServlet(name = "IndexServlet")
+@WebServlet(name = "IndexServlet",urlPatterns="/IndexServlet")
 public class IndexServlet extends BaseServlet {
     @Override
     public String execute(HttpServletRequest req, HttpServletResponse resp) throws Exception {

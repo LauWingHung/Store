@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Map;
 
-@WebServlet(name = "UserServlet")
+@WebServlet(name = "UserServlet",urlPatterns="/UserServlet")
 public class UserServlet extends BaseServlet {
     public String regisUI(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         return "/jsp/register.jsp";

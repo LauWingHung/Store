@@ -10,7 +10,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "ProductServlet")
+@WebServlet(name = "ProductServlet",urlPatterns="/ProductServlet")
 public class ProductServlet extends BaseServlet {
 //    findProductByPid
 public String findProductByPid(HttpServletRequest req, HttpServletResponse resp) throws Exception {

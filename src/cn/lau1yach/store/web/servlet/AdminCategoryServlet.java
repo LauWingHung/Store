@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "AdminCategoryServlet")
+@WebServlet(name = "AdminCategoryServlet",urlPatterns="/AdminCategoryServlet")
 public class AdminCategoryServlet extends BaseServlet {
     public String findAllCats(HttpServletRequest req, HttpServletResponse resp) throws Exception {
         //获取全部分类信息
