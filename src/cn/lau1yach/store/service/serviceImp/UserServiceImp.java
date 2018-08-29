@@ -17,9 +17,9 @@ import java.sql.SQLException;
  * Description:
  */
 public class UserServiceImp implements UserService {
-    public static void main(String[] arg) {
-        System.out.println("hello world!");
-    }
+//    public static void main(String[] arg) {
+//        System.out.println("hello world!");
+//    }
     UserDao userDao = (UserDao) BeanFactory.createObject("UserDao");
     @Override
     public void userRegist(User user) throws SQLException {
