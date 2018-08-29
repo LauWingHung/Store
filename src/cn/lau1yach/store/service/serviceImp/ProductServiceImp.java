@@ -5,6 +5,7 @@ import cn.lau1yach.store.dao.daoImp.ProductDaoImp;
 import cn.lau1yach.store.domain.PageModel;
 import cn.lau1yach.store.domain.Product;
 import cn.lau1yach.store.service.ProductService;
+import cn.lau1yach.store.utils.BeanFactory;
 
 import java.util.List;
 
@@ -18,7 +19,7 @@ import java.util.List;
  */
 public class ProductServiceImp implements ProductService {
 
-    ProductDao productDao = new ProductDaoImp();
+    ProductDao productDao = (ProductDao) BeanFactory.createObject("ProductDao");
     @Override
     public List<Product> findHots() throws Exception {
         return productDao.findHots();

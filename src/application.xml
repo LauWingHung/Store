@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+    <bean id="CategoryDao" class="cn.lau1yach.store.dao.daoImp.CategoryDaoImp"/>
+    <bean id="UserDao" class="cn.lau1yach.store.dao.daoImp.UserDaoImp"/>
+    <bean id="ProductDao" class="cn.lau1yach.store.dao.daoImp.ProductDaoImp"/>
+    <bean id="OrderDao" class="cn.lau1yach.store.dao.daoImp.OrderDaoImp"/>
+</beans>

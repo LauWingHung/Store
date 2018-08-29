@@ -4,6 +4,7 @@ import cn.lau1yach.store.dao.CategoryDao;
 import cn.lau1yach.store.dao.daoImp.CategoryDaoImp;
 import cn.lau1yach.store.domain.Category;
 import cn.lau1yach.store.service.CategoryService;
+import cn.lau1yach.store.utils.BeanFactory;
 import cn.lau1yach.store.utils.JedisUtils;
 import redis.clients.jedis.Jedis;
 
@@ -18,7 +19,7 @@ import java.util.List;
  * Description:
  */
 public class CategoryServiceImp implements CategoryService {
-    CategoryDao categoryDao= new CategoryDaoImp();
+    CategoryDao categoryDao= (CategoryDao) BeanFactory.createObject("CategoryDao");
     @Override
     public List<Category> getAllCats() throws Exception {
 

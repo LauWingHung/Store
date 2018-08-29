@@ -4,6 +4,7 @@ import cn.lau1yach.store.dao.UserDao;
 import cn.lau1yach.store.dao.daoImp.UserDaoImp;
 import cn.lau1yach.store.domain.User;
 import cn.lau1yach.store.service.UserService;
+import cn.lau1yach.store.utils.BeanFactory;
 
 import java.sql.SQLException;
 
@@ -19,18 +20,17 @@ public class UserServiceImp implements UserService {
     public static void main(String[] arg) {
         System.out.println("hello world!");
     }
-
+    UserDao userDao = (UserDao) BeanFactory.createObject("UserDao");
     @Override
     public void userRegist(User user) throws SQLException {
 //        实现注册
-        UserDao userDao =new UserDaoImp();
+
         userDao.userRegist(user);
     }
 
     @Override
     public boolean userActive(String code) throws SQLException {
 //        实现注册
-        UserDao userDao =new UserDaoImp();
 //        对DB发送select * from user where code=?
         User user=userDao.userActive(code);
         if (null!=user){
@@ -52,7 +52,6 @@ public class UserServiceImp implements UserService {
     @Override
     public User userLogin(User user) throws SQLException {
 //        此处：可以利用异常在模块直接传递数据
-        UserDao userDao =new UserDaoImp();
 //        select * from user where username=? and password=?
         User uu=userDao.userLogin(user);
         if (null==uu){

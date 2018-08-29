@@ -7,6 +7,7 @@ import cn.lau1yach.store.domain.OrderItem;
 import cn.lau1yach.store.domain.PageModel;
 import cn.lau1yach.store.domain.User;
 import cn.lau1yach.store.service.OrderService;
+import cn.lau1yach.store.utils.BeanFactory;
 import cn.lau1yach.store.utils.JDBCUtils;
 
 import java.sql.Connection;
@@ -14,7 +15,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class OrderServiceImp implements OrderService {
-    OrderDao orderDao=new OrderDaoImp();
+    OrderDao orderDao= (OrderDao) BeanFactory.createObject("OrderDao");
 
     @Override
     public void saveOrder(Order order) throws SQLException {
