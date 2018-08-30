@@ -24,4 +24,8 @@ public interface OrderDao {
 
 
     void updateOrder(Order order) throws Exception;
+
+    List<Order> finAllOrders() throws Exception;
+
+    List<Order> finAllOrders(String st) throws Exception;
 }

@@ -34,6 +34,20 @@ public class OrderDaoImp implements OrderDao {
     }
 
     @Override
+    public List<Order> finAllOrders() throws Exception {
+        String sql= "select * from orders";
+        QueryRunner qr=new QueryRunner(JDBCUtils.getDataSource());
+        return qr.query(sql,new BeanListHandler<Order>(Order.class));
+    }
+
+    @Override
+    public List<Order> finAllOrders(String st) throws Exception {
+        String sql= "select * from orders where state= ?";
+        QueryRunner qr=new QueryRunner(JDBCUtils.getDataSource());
+        return qr.query(sql,new BeanListHandler<Order>(Order.class),st);
+    }
+
+    @Override
     public List findMyOrdersWithPage(User user, int startIndex, int pageSize) throws Exception {
         String sql="select * from orders where uid=? limit ? , ?";
         QueryRunner qr=new QueryRunner(JDBCUtils.getDataSource());

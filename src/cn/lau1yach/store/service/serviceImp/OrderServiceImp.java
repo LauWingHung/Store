@@ -78,5 +78,15 @@ public class OrderServiceImp implements OrderService {
         orderDao.updateOrder(order);
     }
 
+    @Override
+    public List<Order> finAllOrders() throws Exception {
+        return orderDao.finAllOrders();
+    }
+
+    @Override
+    public List<Order> finAllOrders(String st) throws Exception {
+        return orderDao.finAllOrders(st);
+    }
+
 
 }
