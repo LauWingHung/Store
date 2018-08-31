@@ -41,22 +41,22 @@
 								<tr
 									style="FONT-WEIGHT: bold; FONT-SIZE: 12pt; HEIGHT: 25px; BACKGROUND-COLOR: #afd1f3">
 
-									<td align="center" width="10%">
+									<td align="center" width="5%">
 										序号
 									</td>
-									<td align="center" width="10%">
+									<td align="center" width="20%">
 										订单编号
 									</td>
-									<td align="center" width="10%">
+									<td align="center" width="5%">
 										订单金额
 									</td>
-									<td align="center" width="10%">
+									<td align="center" width="5%">
 										收货人
 									</td>
-									<td align="center" width="10%">
+									<td align="center" width="5%">
 										订单状态
 									</td>
-									<td align="center" width="50%">
+									<td align="center" width="60%">
 										订单详情
 									</td>
 								</tr>
@@ -64,33 +64,37 @@
 										<tr onmouseover="this.style.backgroundColor = 'white'"
 											onmouseout="this.style.backgroundColor = '#F5FAFE';">
 											<td style="CURSOR: hand; HEIGHT: 22px" align="center"
-												width="18%">
+												width="5%">
 												${status.count}
 											</td>
 											<td style="CURSOR: hand; HEIGHT: 22px" align="center"
-												width="17%">
+												width="20%">
 												${o.oid}
 											</td>
 											<td style="CURSOR: hand; HEIGHT: 22px" align="center"
-												width="17%">
+												width="5%">
 													${o.total}
 											</td>
 											<td style="CURSOR: hand; HEIGHT: 22px" align="center"
-												width="17%">
+												width="5%">
 													${o.name}
 											</td>
 											<td style="CURSOR: hand; HEIGHT: 22px" align="center"
-												width="17%">
+												width="5%">
 													<%--1=未付款、2=发货、3=已发货、4=订单完成--%>
 												<c:if test="${o.state==1}">未付款</c:if>
 												<c:if test="${o.state==2}">
-													<a href="">发货</a>
+													<a href="/Store/AdminOrderServlet?method=updateOrderByOid&oid=${o.oid}">发货</a>
 												</c:if>
 												<c:if test="${o.state==3}">已发货</c:if>
 												<c:if test="${o.state==4}">订单完成</c:if>
 											</td>
-											<td align="center" style="HEIGHT: 22px">
-												<input type="button" value="订单详情" id="but${o.oid}" onclick="showDetail('${o.oid}')"/>
+											<td align="center" style="HEIGHT: 22px" width="60%">
+												<input type="button" value="订单详情" class="myClass" id="${o.oid}"/>
+                                                <table border="1" width="100%">
+                                                    <%--<tr><th>商品</th><th>名称</th><th>单价</th><th>数量</th></tr>--%>
+                                                    <%--<tr><td><img src="/Store/products/1/c_0001.jpg"/></td><td>xxx</td><td>xxx</td><td>xxx</td></tr>--%>
+                                                </table>
 												<div id="div${o.oid}">
 													
 												</div>
@@ -110,5 +114,57 @@
 			</table>
 		</form>
 	</body>
+<script>
+    $(function(){
+        //页面加载完毕之后,获取样式名称为myClass一批元素,为期绑定点击事件
+        $(".myClass").click(function(){
+            //获取当前订单id
+            var id=this.id;
+
+            //获取当前按钮文字
+            var txt=this.value;
+
+            //PS:获取到当前元素的下一个对象table
+            var $tb=$(this).next();
+
+            if(txt=="订单详情"){
+                //向服务端发送Ajax请求,将当前的订单id传递到服务端
+                var url="/Store/AdminOrderServlet";
+                var obj={"method":"findOrderByOidWithAjax","id":id};
+
+
+
+                $.post(url,obj,function(data){
+
+                    //var $tb=$(this).next();  //此处坑爹,错误的写法
+
+                    //alert(data);
+                    //清除内容
+                    $tb.html("");
+                    var th="<tr><th>商品</th><th>名称</th><th>单价</th><th>数量</th></tr>";
+                    $tb.append(th);
+
+                    //利用JQUERY遍历响应到客户端的数据
+                    $.each(data,function(i,obj){
+                        var td="<tr><td><img src='/Store/"+obj.product.pimage+"' width='50px'/></td><td>"+obj.product.pname+"</td><td>"+obj.product.shop_price+"</td><td>"+obj.quantity+"</td></tr>";
+                        $tb.append(td);
+                    })
+                },"json");
+
+                this.value="关闭";
+                //$(this).val("关闭");
+
+            }else{
+                this.value="订单详情";
+                //清空表格内容
+                $tb.html("");
+            }
+
+
+
+
+        });
+    });
+</script>
 </HTML>
 
