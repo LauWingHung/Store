@@ -10,9 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="926fc97b-5d46-4a41-bf1d-9755312eaf6c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/storetest.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lau1yach/store/web/servlet/AdminOrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lau1yach/store/web/servlet/AdminOrderServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/order/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/order/list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +31,8 @@
       <file leaf-file-name="AdminOrderServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/web/servlet/AdminOrderServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+            <state relative-caret-position="616">
+              <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,35 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="left.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/admin/left.jsp">
+      <file leaf-file-name="storetest.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/storetest.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="46" column="74" lean-forward="true" selection-start-line="46" selection-start-column="74" selection-end-line="46" selection-end-column="118" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/admin/order/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="86" column="99" selection-start-line="86" selection-start-column="99" selection-end-line="86" selection-end-column="99" />
-              <folding>
-                <element signature="n#style#0;n#td#5;n#tr#1;n#table#0;n#td#0;n#tr#1;n#TBODY#0;n#table#0;n#form#0;n#body#0;n#HTML#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminProductServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/web/servlet/AdminProductServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="105" column="51" selection-start-line="105" selection-start-column="51" selection-end-line="105" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="455">
+              <caret line="207" column="109" lean-forward="true" selection-start-line="207" selection-start-column="109" selection-end-line="207" selection-end-column="109" />
             </state>
           </provider>
         </entry>
@@ -148,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/cn/lau1yach/store/dao/daoImp/OrderDaoImp.java" />
         <option value="$PROJECT_DIR$/web/admin/order/list.jsp" />
         <option value="$PROJECT_DIR$/src/cn/lau1yach/store/web/servlet/AdminOrderServlet.java" />
+        <option value="$PROJECT_DIR$/storetest.sql" />
       </list>
     </option>
   </component>
@@ -237,11 +213,11 @@
       <recent name="cn.lau1yach.store.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JakartaEE\Store" />
       <recent name="D:\JakartaEE\Store\web\WEB-INF\lib" />
       <recent name="D:\JakartaEE\Store\web" />
       <recent name="D:\JakartaEE\Store\src\cn\lau1yach\store\utils" />
       <recent name="D:\JakartaEE\Store\web\jsp" />
-      <recent name="D:\JakartaEE\Store\src\cn\lau1yach\store\domain" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -421,7 +397,9 @@
       <workItem from="1535421897017" duration="10359000" />
       <workItem from="1535502477706" duration="14137000" />
       <workItem from="1535595590777" duration="5584000" />
-      <workItem from="1535673184735" duration="8389000" />
+      <workItem from="1535673184735" duration="9609000" />
+      <workItem from="1535848512756" duration="1213000" />
+      <workItem from="1536028083595" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="lau1yach">
       <created>1534776366424</created>
@@ -577,18 +555,25 @@
       <option name="project" value="LOCAL" />
       <updated>1535622212526</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="lau1yach">
+      <created>1535704454619</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1535704454621</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123551000" />
+    <option name="totallyTimeSpent" value="126101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.2469697" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -596,20 +581,21 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50364584" side_tool="true" weight="0.60892665" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32943678" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32837406" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32943678" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.83165467" visible="true" weight="0.1484375" />
-      <window_info id="Web" order="2" sideWeight="0.16834532" side_tool="true" visible="true" weight="0.1484375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.83103085" visible="true" weight="0.1484375" />
+      <window_info id="Web" order="2" sideWeight="0.16896918" side_tool="true" visible="true" weight="0.1484375" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49635416" weight="0.261424" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49635416" visible="true" weight="0.261424" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.2469697" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -675,9 +661,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/admin/home.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/bottom.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -986,9 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="610">
           <caret line="105" column="51" selection-start-line="105" selection-start-column="51" selection-end-line="105" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,20 +982,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="46" column="74" lean-forward="true" selection-start-line="46" selection-start-column="74" selection-end-line="46" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lau1yach/store/web/servlet/AdminOrderServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        <state relative-caret-position="616">
+          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/left.jsp">
+    <entry file="file://$PROJECT_DIR$/storetest.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="46" column="74" lean-forward="true" selection-start-line="46" selection-start-column="74" selection-end-line="46" selection-end-column="118" />
+        <state relative-caret-position="455">
+          <caret line="207" column="109" lean-forward="true" selection-start-line="207" selection-start-column="109" selection-end-line="207" selection-end-column="109" />
         </state>
       </provider>
     </entry>
